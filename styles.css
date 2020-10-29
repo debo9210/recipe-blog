@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  margin: 0 200px;
+}
+
+/* header style */
+header {
+  margin: 30px 0 40px 0;
+}
+
+header h1 {
+  height: 64px;
+  width: 587px;
+  font-family: 'Playfair Display' sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.headerIntro {
+  height: 51px;
+  width: 470px;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4f4f4f;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.svg {
+  display: flex;
+  margin-top: 10px;
+}
+
+/* image style */
+/* .img {
+  height: 470px;
+  width: 969px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+} */
+
+.imageSection {
+  height: 470px;
+  width: 969px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  background-image: url('images/photo1.png');
+  background-size: cover;
+}
+
+/* main style */
+main {
+  display: flex;
+  width: 969px;
+}
+
+main h3 {
+  font-family: 'Playfair Display' sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  color: #333;
+}
+
+.foodItem {
+  font-family: 'Playfair Display' sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333;
+}
+
+main label {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  width: 528px;
+  margin-left: 5px;
+}
+
+.foodItemList {
+  display: flex;
+}
+
+main strong {
+  font-weight: 700;
+}
+
+main span {
+  font-style: italic;
+}
+
+.instruct {
+  display: flex;
+  margin: 0 0 5px 0;
+}
+
+.num {
+  background: #f2994a;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 2px;
+  padding-top: 2px;
+  font-family: 'Playfair Display' sans-serif;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.instructWord {
+  width: 528px;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.instructWord span {
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* aside style */
+
+aside {
+  border-radius: 5px;
+  margin: 30px 0 0 200px;
+  height: 300px;
+  padding: 20px 10px 0 10px;
+  box-shadow: 0 1px 1px #bdbdbd;
+}
+
+.iconContainer {
+  display: flex;
+  width: 150px;
+  padding: 10px;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.iconInner {
+  display: flex;
+  flex-direction: column;
+  padding-left: 7px;
+}
+
+.yield {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  color: #bdbdbd;
+  padding-bottom: 5px;
+}
+
+.material-icons {
+  color: #4f4f4f;
+}
+
+.time {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  color: #333;
+}
+
+.cutlery,
+.timeColor {
+  color: #f2994a;
+}
+
+.source {
+  color: #bdbdbd;
+  margin: 40px 0 20px 0;
+  font-style: italic;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  article {
+    margin: 0 auto;
+  }
+
+  aside {
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .imageSection {
+    width: 910px;
+  }
+
+  article {
+    margin: 0 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    margin: 0 auto;
+  }
+
+  article {
+    margin: 0 auto;
+  }
+
+  header {
+    margin: 10px 0 5px 10px;
+  }
+
+  header h1 {
+    height: 29px;
+    width: 323px;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+  }
+
+  .headerIntro {
+    height: 88px;
+    width: 320px;
+    font-size: 12px;
+    line-height: 14.63px;
+    margin: 0;
+    padding-left: 10px;
+  }
+
+  .imageSection {
+    height: 213px;
+    width: 352px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+
+  aside {
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 100px 0 -10px;
+    box-shadow: none;
+  }
+
+  .number2 {
+    order: 2;
+    /* border: 1px solid green; */
+    margin-top: -200px;
+  }
+
+  .split {
+    display: flex;
+    margin-top: -120px;
+    width: 350px;
+  }
+
+  .material-icons {
+    font-size: 12px;
+  }
+
+  .yield {
+    font-size: 8px;
+    line-height: 9.75px;
+    padding: 0;
+  }
+
+  .time {
+    font-size: 10px;
+    line-height: 12.19px;
+  }
+
+  .iconContainer {
+    width: 150px;
+    padding: 5px;
+  }
+
+  main h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .foodItem {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  main label {
+    font-size: 14px;
+    width: 321px;
+  }
+
+  .instructWord {
+    width: 300px;
+    line-height: 19.5px;
+  }
+
+  .source {
+    margin: 40px 0 20px 0;
+    font-size: 12px;
+    text-align: center;
+  }
+}
